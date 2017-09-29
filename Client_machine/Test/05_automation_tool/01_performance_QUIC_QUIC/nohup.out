@@ -1,0 +1,5 @@
+Created new window in existing browser session.
+Created new window in existing browser session.
+Created new window in existing browser session.
+[0926/165047.050375:ERROR:nss_util.cc(94)] Failed to create /home/quoc/.pki/nssdb directory.
+[14329:14329:0926/165047.370934:ERROR:desktop_window_tree_host_x11.cc(1147)] Not implemented reached in virtual void views::DesktopWindowTreeHostX11::InitModalType(ui::ModalType)

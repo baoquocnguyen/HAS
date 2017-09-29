@@ -1,0 +1,4 @@
+1. This folder is used to store result
+2. Client side: we use script in same folder Test/02_fairness_test
+3. Server side: we use quic server and netem Test/03_netem_test
+

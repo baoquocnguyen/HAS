@@ -1,0 +1,30 @@
+2017/07/26 12:04:48.332810 Starting new connection to quic.clemente.io ([::]:49125 -> 172.20.36.146:443), connectionID e4b38bc046d3a5f9, version 37
+2017/07/26 12:04:48.333050 Sending CHLO:
+	SNI : "quic.clemente.io"
+	VER : "Q037"
+	CCS : "\x01\xe8\x81`\x92\x92\x1a\xe8~퀆\xa2\x15\x82\x91"
+	MSPC: "d\x00\x00\x00"
+	TCID: "\x00\x00\x00\x00"
+	PDMD: "X509"
+	ICSL: "x\x00\x00\x00"
+	MIDS: "d\x00\x00\x00"
+	CFCW: "\x00\xc0\x00\x00"
+	SFCW: "\x00\x80\x00\x00"
+	PAD : (880 bytes)
+2017/07/26 12:04:48.333176 -> Sending packet 0x1 (1069 bytes) for connection e4b38bc046d3a5f9, unencrypted
+2017/07/26 12:04:48.333207 	-> &frames.StreamFrame{StreamID: 1, FinBit: false, Offset: 0x0, Data length: 0x410, Offset + Data length: 0x410}
+2017/07/26 12:04:48.833423 	Queueing packet 0x1 for retransmission (RTO), 1 outstanding
+2017/07/26 12:04:48.833503 	Dequeueing handshake retransmission for packet 0x1
+2017/07/26 12:04:48.833628 -> Sending packet 0x2 (1072 bytes) for connection e4b38bc046d3a5f9, unencrypted
+2017/07/26 12:04:48.833695 	-> &frames.StopWaitingFrame{LeastUnacked: 0x2, PacketNumberLen: 0x2}
+2017/07/26 12:04:48.833720 	-> &frames.StreamFrame{StreamID: 1, FinBit: false, Offset: 0x0, Data length: 0x410, Offset + Data length: 0x410}
+2017/07/26 12:04:49.833869 	Queueing packet 0x2 for retransmission (RTO), 1 outstanding
+2017/07/26 12:04:49.833932 	Dequeueing handshake retransmission for packet 0x2
+2017/07/26 12:04:49.833986 -> Sending packet 0x3 (1072 bytes) for connection e4b38bc046d3a5f9, unencrypted
+2017/07/26 12:04:49.834000 	-> &frames.StopWaitingFrame{LeastUnacked: 0x3, PacketNumberLen: 0x2}
+2017/07/26 12:04:49.834012 	-> &frames.StreamFrame{StreamID: 1, FinBit: false, Offset: 0x0, Data length: 0x410, Offset + Data length: 0x410}
+2017/07/26 12:04:51.834214 	Queueing packet 0x3 for retransmission (RTO), 1 outstanding
+2017/07/26 12:04:51.834289 	Dequeueing handshake retransmission for packet 0x3
+2017/07/26 12:04:51.834358 -> Sending packet 0x4 (1072 bytes) for connection e4b38bc046d3a5f9, unencrypted
+2017/07/26 12:04:51.834373 	-> &frames.StopWaitingFrame{LeastUnacked: 0x4, PacketNumberLen: 0x2}
+2017/07/26 12:04:51.834385 	-> &frames.StreamFrame{StreamID: 1, FinBit: false, Offset: 0x0, Data length: 0x410, Offset + Data length: 0x410}

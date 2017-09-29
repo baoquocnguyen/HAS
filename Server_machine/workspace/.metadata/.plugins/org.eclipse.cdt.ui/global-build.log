@@ -1,0 +1,258 @@
+11:42:59 **** Incremental Build of configuration Debug for project Detect_same_ack_number ****
+make all 
+make: Nothing to be done for `all'.
+11:43:09 **** Incremental Build of configuration Debug for project Detect_same_ack_number ****
+make all 
+make: Nothing to be done for `all'.
+11:44:17 **** Incremental Build of configuration Debug for project Detect_same_ack_number ****
+make all 
+make: Nothing to be done for `all'.
+11:46:18 **** Incremental Build of configuration Debug for project Detect_same_ack_number ****
+make all 
+make: Nothing to be done for `all'.
+11:52:28 **** Incremental Build of configuration Debug for project Detect_same_ack_number ****
+make all 
+make: Nothing to be done for `all'.
+11:52:32 **** Incremental Build of configuration Debug for project Detect_same_ack_number ****
+make all 
+make: Nothing to be done for `all'.
+11:56:46 **** Incremental Build of configuration Debug for project convert_logfile ****
+make all 
+make: Nothing to be done for `all'.
+11:58:48 **** Incremental Build of configuration Debug for project Detect_same_ack_number ****
+make all 
+make: Nothing to be done for `all'.
+11:59:50 **** Incremental Build of configuration Debug for project Detect_same_ack_number ****
+make all 
+make: Nothing to be done for `all'.
+12:00:01 **** Incremental Build of configuration Debug for project Detect_same_ack_number ****
+make all 
+make: Nothing to be done for `all'.
+12:02:49 **** Incremental Build of configuration Debug for project Detect_same_ack_number ****
+make all 
+make: Nothing to be done for `all'.
+12:06:19 **** Incremental Build of configuration Debug for project Detect_same_ack_number ****
+make all 
+Building file: ../src/Detect_same_ack_number.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Detect_same_ack_number.d" -MT"src/Detect_same_ack_number.o" -o "src/Detect_same_ack_number.o" "../src/Detect_same_ack_number.c"
+../src/Detect_same_ack_number.c: In function ‘Processing_input’:
+../src/Detect_same_ack_number.c:79:16: warning: format not a string literal and no format arguments [-Wformat-security]
+                fprintf(f,buff);
+                ^
+../src/Detect_same_ack_number.c:51:15: warning: unused variable ‘check_code’ [-Wunused-variable]
+          char check_code[5] = "2017/";
+               ^
+../src/Detect_same_ack_number.c: In function ‘Detect_same_ack_num’:
+../src/Detect_same_ack_number.c:129:28: warning: unused variable ‘i’ [-Wunused-variable]
+                        int i = 1;
+                            ^
+Finished building: ../src/Detect_same_ack_number.c
+ 
+Building target: Detect_same_ack_number
+Invoking: Cross GCC Linker
+gcc  -o "Detect_same_ack_number"  ./src/Detect_same_ack_number.o   
+Finished building target: Detect_same_ack_number
+ 
+12:13:43 **** Incremental Build of configuration Debug for project Detect_same_ack_number ****
+make all 
+make: Nothing to be done for `all'.
+14:20:32 **** Incremental Build of configuration Debug for project Detect_same_ack_number ****
+make all 
+make: Nothing to be done for `all'.
+14:20:52 **** Incremental Build of configuration Debug for project Detect_same_ack_number ****
+make all 
+Building file: ../src/Detect_same_ack_number.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Detect_same_ack_number.d" -MT"src/Detect_same_ack_number.o" -o "src/Detect_same_ack_number.o" "../src/Detect_same_ack_number.c"
+../src/Detect_same_ack_number.c: In function ‘Processing_input’:
+../src/Detect_same_ack_number.c:79:16: warning: format not a string literal and no format arguments [-Wformat-security]
+                fprintf(f,buff);
+                ^
+../src/Detect_same_ack_number.c:51:15: warning: unused variable ‘check_code’ [-Wunused-variable]
+          char check_code[5] = "2017/";
+               ^
+../src/Detect_same_ack_number.c: In function ‘Detect_same_ack_num’:
+../src/Detect_same_ack_number.c:129:28: warning: unused variable ‘i’ [-Wunused-variable]
+                        int i = 1;
+                            ^
+Finished building: ../src/Detect_same_ack_number.c
+ 
+Building target: Detect_same_ack_number
+Invoking: Cross GCC Linker
+gcc  -o "Detect_same_ack_number"  ./src/Detect_same_ack_number.o   
+Finished building target: Detect_same_ack_number
+ 
+14:28:03 **** Incremental Build of configuration Debug for project Detect_same_ack_number ****
+make all 
+Building file: ../src/Detect_same_ack_number.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Detect_same_ack_number.d" -MT"src/Detect_same_ack_number.o" -o "src/Detect_same_ack_number.o" "../src/Detect_same_ack_number.c"
+../src/Detect_same_ack_number.c: In function ‘Processing_input’:
+../src/Detect_same_ack_number.c:79:16: warning: format not a string literal and no format arguments [-Wformat-security]
+                fprintf(f,buff);
+                ^
+../src/Detect_same_ack_number.c:51:15: warning: unused variable ‘check_code’ [-Wunused-variable]
+          char check_code[5] = "2017/";
+               ^
+../src/Detect_same_ack_number.c: In function ‘Detect_same_ack_num’:
+../src/Detect_same_ack_number.c:127:28: warning: unused variable ‘i’ [-Wunused-variable]
+                        int i = 1;
+                            ^
+../src/Detect_same_ack_number.c:109:16: warning: unused variable ‘n’ [-Wunused-variable]
+            int n = 0;
+                ^
+Finished building: ../src/Detect_same_ack_number.c
+ 
+Building target: Detect_same_ack_number
+Invoking: Cross GCC Linker
+gcc  -o "Detect_same_ack_number"  ./src/Detect_same_ack_number.o   
+Finished building target: Detect_same_ack_number
+ 
+14:30:14 **** Incremental Build of configuration Debug for project Detect_same_ack_number ****
+make all 
+Building file: ../src/Detect_same_ack_number.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Detect_same_ack_number.d" -MT"src/Detect_same_ack_number.o" -o "src/Detect_same_ack_number.o" "../src/Detect_same_ack_number.c"
+../src/Detect_same_ack_number.c: In function ‘Processing_input’:
+../src/Detect_same_ack_number.c:79:16: warning: format not a string literal and no format arguments [-Wformat-security]
+                fprintf(f,buff);
+                ^
+../src/Detect_same_ack_number.c:51:15: warning: unused variable ‘check_code’ [-Wunused-variable]
+          char check_code[5] = "2017/";
+               ^
+../src/Detect_same_ack_number.c: In function ‘Detect_same_ack_num’:
+../src/Detect_same_ack_number.c:127:28: warning: unused variable ‘i’ [-Wunused-variable]
+                        int i = 1;
+                            ^
+../src/Detect_same_ack_number.c:109:16: warning: unused variable ‘n’ [-Wunused-variable]
+            int n = 0;
+                ^
+Finished building: ../src/Detect_same_ack_number.c
+ 
+Building target: Detect_same_ack_number
+Invoking: Cross GCC Linker
+gcc  -o "Detect_same_ack_number"  ./src/Detect_same_ack_number.o   
+Finished building target: Detect_same_ack_number
+ 
+14:31:22 **** Incremental Build of configuration Debug for project Detect_same_ack_number ****
+make all 
+Building file: ../src/Detect_same_ack_number.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Detect_same_ack_number.d" -MT"src/Detect_same_ack_number.o" -o "src/Detect_same_ack_number.o" "../src/Detect_same_ack_number.c"
+../src/Detect_same_ack_number.c: In function ‘Processing_input’:
+../src/Detect_same_ack_number.c:79:16: warning: format not a string literal and no format arguments [-Wformat-security]
+                fprintf(f,buff);
+                ^
+../src/Detect_same_ack_number.c:51:15: warning: unused variable ‘check_code’ [-Wunused-variable]
+          char check_code[5] = "2017/";
+               ^
+../src/Detect_same_ack_number.c: In function ‘Detect_same_ack_num’:
+../src/Detect_same_ack_number.c:103:23: error: ‘f’ undeclared (first use in this function)
+               fprintf(f, "%s\n","pkt_num   RTT");
+                       ^
+../src/Detect_same_ack_number.c:103:23: note: each undeclared identifier is reported only once for each function it appears in
+../src/Detect_same_ack_number.c:118:28: warning: unused variable ‘i’ [-Wunused-variable]
+                        int i = 1;
+                            ^
+make: *** [src/Detect_same_ack_number.o] Error 1
+14:31:33 **** Incremental Build of configuration Debug for project Detect_same_ack_number ****
+make all 
+Building file: ../src/Detect_same_ack_number.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Detect_same_ack_number.d" -MT"src/Detect_same_ack_number.o" -o "src/Detect_same_ack_number.o" "../src/Detect_same_ack_number.c"
+../src/Detect_same_ack_number.c: In function ‘Processing_input’:
+../src/Detect_same_ack_number.c:79:16: warning: format not a string literal and no format arguments [-Wformat-security]
+                fprintf(f,buff);
+                ^
+../src/Detect_same_ack_number.c:51:15: warning: unused variable ‘check_code’ [-Wunused-variable]
+          char check_code[5] = "2017/";
+               ^
+../src/Detect_same_ack_number.c: In function ‘Detect_same_ack_num’:
+../src/Detect_same_ack_number.c:117:28: warning: unused variable ‘i’ [-Wunused-variable]
+                        int i = 1;
+                            ^
+../src/Detect_same_ack_number.c:128:22: error: ‘f’ undeclared (first use in this function)
+               fclose(f);
+                      ^
+../src/Detect_same_ack_number.c:128:22: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [src/Detect_same_ack_number.o] Error 1
+14:31:45 **** Incremental Build of configuration Debug for project Detect_same_ack_number ****
+make all 
+Building file: ../src/Detect_same_ack_number.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Detect_same_ack_number.d" -MT"src/Detect_same_ack_number.o" -o "src/Detect_same_ack_number.o" "../src/Detect_same_ack_number.c"
+../src/Detect_same_ack_number.c: In function ‘Processing_input’:
+../src/Detect_same_ack_number.c:79:16: warning: format not a string literal and no format arguments [-Wformat-security]
+                fprintf(f,buff);
+                ^
+../src/Detect_same_ack_number.c:51:15: warning: unused variable ‘check_code’ [-Wunused-variable]
+          char check_code[5] = "2017/";
+               ^
+../src/Detect_same_ack_number.c: In function ‘Detect_same_ack_num’:
+../src/Detect_same_ack_number.c:117:28: warning: unused variable ‘i’ [-Wunused-variable]
+                        int i = 1;
+                            ^
+Finished building: ../src/Detect_same_ack_number.c
+ 
+Building target: Detect_same_ack_number
+Invoking: Cross GCC Linker
+gcc  -o "Detect_same_ack_number"  ./src/Detect_same_ack_number.o   
+Finished building target: Detect_same_ack_number
+ 
+14:31:55 **** Incremental Build of configuration Debug for project Detect_same_ack_number ****
+make all 
+Building file: ../src/Detect_same_ack_number.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Detect_same_ack_number.d" -MT"src/Detect_same_ack_number.o" -o "src/Detect_same_ack_number.o" "../src/Detect_same_ack_number.c"
+../src/Detect_same_ack_number.c: In function ‘Processing_input’:
+../src/Detect_same_ack_number.c:79:16: warning: format not a string literal and no format arguments [-Wformat-security]
+                fprintf(f,buff);
+                ^
+../src/Detect_same_ack_number.c:51:15: warning: unused variable ‘check_code’ [-Wunused-variable]
+          char check_code[5] = "2017/";
+               ^
+../src/Detect_same_ack_number.c: In function ‘Detect_same_ack_num’:
+../src/Detect_same_ack_number.c:117:28: warning: unused variable ‘i’ [-Wunused-variable]
+                        int i = 1;
+                            ^
+Finished building: ../src/Detect_same_ack_number.c
+ 
+Building target: Detect_same_ack_number
+Invoking: Cross GCC Linker
+gcc  -o "Detect_same_ack_number"  ./src/Detect_same_ack_number.o   
+Finished building target: Detect_same_ack_number
+ 
+12:22:32 **** Incremental Build of configuration Debug for project convert_logfile ****
+make all 
+make: Nothing to be done for `all'.
+12:23:59 **** Incremental Build of configuration Debug for project convert_logfile ****
+make all 
+make: Nothing to be done for `all'.
+13:53:05 **** Incremental Build of configuration Debug for project convert_logfile ****
+make all 
+make: Nothing to be done for `all'.
+12:02:59 **** Build of configuration Debug for project convert_logfile ****
+make all 
+make: Nothing to be done for `all'.
+13:37:16 **** Incremental Build of configuration Debug for project convert_logfile ****
+make all 
+make: Nothing to be done for `all'.
+13:38:38 **** Incremental Build of configuration Debug for project convert_logfile ****
+make all 
+make: Nothing to be done for `all'.
+13:43:32 **** Incremental Build of configuration Debug for project convert_logfile ****
+make all 
+make: Nothing to be done for `all'.
+13:44:36 **** Incremental Build of configuration Debug for project convert_logfile ****
+make all 
+make: Nothing to be done for `all'.
+14:10:45 **** Incremental Build of configuration Debug for project convert_logfile ****
+make all 
+make: Nothing to be done for `all'.
+14:14:11 **** Incremental Build of configuration Debug for project convert_logfile ****
+make all 
+make: Nothing to be done for `all'.
+14:41:21 **** Incremental Build of configuration Debug for project convert_logfile ****
+make all 
+make: Nothing to be done for `all'.

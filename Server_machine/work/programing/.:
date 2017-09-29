@@ -1,0 +1,10 @@
+package main
+
+import "fmt"
+
+function main(){
+	var x float64
+	x =60.0
+	fmt.println(x)
+	fmt.printf("x is of type %T\n",x)
+}

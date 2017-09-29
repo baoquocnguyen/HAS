@@ -1,0 +1,7 @@
+0000000000000000000000000000000000000000 8489c94f4d3aaa5feaa284a16376cfb8ea7d2c2c Quoc <quoc@quoc-virtual-machine.(none)> 1495026368 +0200	clone: from https://github.com/lucas-clemente/quic-go
+8489c94f4d3aaa5feaa284a16376cfb8ea7d2c2c 8489c94f4d3aaa5feaa284a16376cfb8ea7d2c2c Quoc <quoc@quoc-virtual-machine.(none)> 1495026368 +0200	checkout: moving from master to master
+8489c94f4d3aaa5feaa284a16376cfb8ea7d2c2c 8489c94f4d3aaa5feaa284a16376cfb8ea7d2c2c Quoc <quoc@quoc-virtual-machine.(none)> 1495026451 +0200	checkout: moving from master to master
+8489c94f4d3aaa5feaa284a16376cfb8ea7d2c2c a846e8eb844a61be6d0a12a52679244901ac8adb HXHG0230 <baoquoc.nguyen@orange.com> 1497879583 +0200	commit: update file
+a846e8eb844a61be6d0a12a52679244901ac8adb f5d2ea6a7e1b445c71481bb38230d28bb4ad76a2 HXHG0230 <baoquoc.nguyen@orange.com> 1497879592 +0200	pull origin master: Merge made by the 'recursive' strategy.
+f5d2ea6a7e1b445c71481bb38230d28bb4ad76a2 49feda6815aae1ff7bd05cbb21e39369cb2ed364 HXHG0230 <baoquoc.nguyen@orange.com> 1498636627 +0200	commit: not thing change
+49feda6815aae1ff7bd05cbb21e39369cb2ed364 5c2ce4bbb7149ee445e40d852c3b952361a817fe HXHG0230 <baoquoc.nguyen@orange.com> 1498636642 +0200	pull: Merge made by the 'recursive' strategy.

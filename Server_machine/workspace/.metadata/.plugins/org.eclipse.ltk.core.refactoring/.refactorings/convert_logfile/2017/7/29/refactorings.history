@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;convert_logfile/src/convert_logfile.c&apos; to &apos;convert_logfile_bk.c&apos;" description="Rename resource &apos;convert_logfile.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/convert_logfile.c" name="convert_logfile_bk.c" stamp="1500479145368" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;convert_logfile/src/convert_v2.c&apos; to &apos;convert_logfile.c&apos;" description="Rename resource &apos;convert_v2.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/convert_v2.c" name="convert_logfile.c" stamp="1500479152917" updateReferences="true"/>
+</session>

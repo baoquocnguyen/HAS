@@ -1,0 +1,26 @@
+1db20be62e19067cbfd6c0dacfabd9949457a9fc		branch 'master' of https://github.com/lucas-clemente/quic-go
+70a1bea2909af0c9fc3cfff0c4090a6382536162	not-for-merge	branch 'benchmark-tests-race-detector' of https://github.com/lucas-clemente/quic-go
+c728a2b35681617705e35f2d5fdd01801c35209a	not-for-merge	branch 'drop-go17' of https://github.com/lucas-clemente/quic-go
+9d1b2777408c70ba29690213401a9d2a3ce25ab2	not-for-merge	branch 'fix-153' of https://github.com/lucas-clemente/quic-go
+ad86eaf44459309a2151647de7b80d169b346ddf	not-for-merge	branch 'fix-391' of https://github.com/lucas-clemente/quic-go
+30d0d68637ec555b114d4a44ae4babd0818c17c1	not-for-merge	branch 'fix-392' of https://github.com/lucas-clemente/quic-go
+cc3bce98c6d03dc9bfdd9d6b879277fcfd61b42d	not-for-merge	branch 'fix-507' of https://github.com/lucas-clemente/quic-go
+8c9a11fee0b5850f6eb3fcd89e87024abb16b549	not-for-merge	branch 'fix-544' of https://github.com/lucas-clemente/quic-go
+9dbef6604c17b8f1b77ace56c687249b7e2b75fb	not-for-merge	branch 'fix-flaky-session-test' of https://github.com/lucas-clemente/quic-go
+ee13e68a1b204a2c075c61f9e7ffed6abdf9e0cc	not-for-merge	branch 'fix-races' of https://github.com/lucas-clemente/quic-go
+d0915436149a5ddf395e0164464d4148f3e25031	not-for-merge	branch 'fix-unenc-shlo' of https://github.com/lucas-clemente/quic-go
+63873632d0e847c00aaa47b32f7a96acce3860f1	not-for-merge	branch 'flowcontrol-fixes' of https://github.com/lucas-clemente/quic-go
+bc049b9e656e967443cc0078cf691f68a5fbf95f	not-for-merge	branch 'lucas-clemente-patch-1' of https://github.com/lucas-clemente/quic-go
+0af308e4e4edda68950dc81fbbd414a4f584547e	not-for-merge	branch 'new-server-api' of https://github.com/lucas-clemente/quic-go
+1531d19de43707ca781911fefb6543bc595c7958	not-for-merge	branch 'send-chan' of https://github.com/lucas-clemente/quic-go
+b7066c00f805a64712bae953e730555578fdd3ce	not-for-merge	branch 'session-split' of https://github.com/lucas-clemente/quic-go
+131162983001f4433fa4665a79cfd6d07679f3f5	not-for-merge	branch 'simplify-streams' of https://github.com/lucas-clemente/quic-go
+4db0b7c8e64de6ee2f75e85f9ac4a801e674dbf2	not-for-merge	branch 'stream-deadlines' of https://github.com/lucas-clemente/quic-go
+e33e2180c93bfdd2568ac865a2e71dd5a410efec	not-for-merge	branch 'travis-build-stages' of https://github.com/lucas-clemente/quic-go
+8d697c642112574c5af2539de7f91e6221b8bf2b	not-for-merge	branch 'travis-go19' of https://github.com/lucas-clemente/quic-go
+a01aab6e461df131ade374b9fd193209ab011580	not-for-merge	branch 'travis-trusty' of https://github.com/lucas-clemente/quic-go
+2d1d40d8a870733e4338dcc8ba2fcb56dd20224c	not-for-merge	branch 'wip-bbr' of https://github.com/lucas-clemente/quic-go
+26bd15e38b679311b39f5c04ff425f9b5dd2f80c	not-for-merge	branch 'wip-lossdetection-bad' of https://github.com/lucas-clemente/quic-go
+0b924552a5ab4620242c6a2ebce7aa3c3f102e1d	not-for-merge	branch 'wip-no-docker' of https://github.com/lucas-clemente/quic-go
+fa7d8ea9ea59a6d9e1dc9d3147d91e401fc0c251	not-for-merge	branch 'wip-single-chrome' of https://github.com/lucas-clemente/quic-go
+dafacb07d03df102093132d0b9834b3e211a6e3a	not-for-merge	branch 'wip-stresstest' of https://github.com/lucas-clemente/quic-go

@@ -1,0 +1,24 @@
+# pack-refs with: peeled fully-peeled 
+70a1bea2909af0c9fc3cfff0c4090a6382536162 refs/remotes/origin/benchmark-tests-race-detector
+9d1b2777408c70ba29690213401a9d2a3ce25ab2 refs/remotes/origin/fix-153
+a716502f6caec811df2cc8e42b5ca5fb5fab9328 refs/remotes/origin/fix-303
+ad86eaf44459309a2151647de7b80d169b346ddf refs/remotes/origin/fix-391
+30d0d68637ec555b114d4a44ae4babd0818c17c1 refs/remotes/origin/fix-392
+7e256e0ebe3564e14b9db0d0b7d903877127e344 refs/remotes/origin/fix-444
+cc3bce98c6d03dc9bfdd9d6b879277fcfd61b42d refs/remotes/origin/fix-507
+8c9a11fee0b5850f6eb3fcd89e87024abb16b549 refs/remotes/origin/fix-544
+ee13e68a1b204a2c075c61f9e7ffed6abdf9e0cc refs/remotes/origin/fix-races
+6058c1a9e6afc5f3225d557ab2770da3d6dbe86e refs/remotes/origin/fix-unenc-shlo
+8489c94f4d3aaa5feaa284a16376cfb8ea7d2c2c refs/remotes/origin/master
+0af308e4e4edda68950dc81fbbd414a4f584547e refs/remotes/origin/new-server-api
+51aa4c3b69de6d5c24b7a5c3d39372bf29845a0f refs/remotes/origin/stream-deadlines
+e33e2180c93bfdd2568ac865a2e71dd5a410efec refs/remotes/origin/travis-build-stages
+2d1d40d8a870733e4338dcc8ba2fcb56dd20224c refs/remotes/origin/wip-bbr
+26bd15e38b679311b39f5c04ff425f9b5dd2f80c refs/remotes/origin/wip-lossdetection-bad
+75764c08342b18a0ac6c5d543f7ae4a2fac3838a refs/remotes/origin/wip-no-docker
+fa7d8ea9ea59a6d9e1dc9d3147d91e401fc0c251 refs/remotes/origin/wip-single-chrome
+fa1b207fdb1a20aec6c6cfb023e83be136e31536 refs/tags/race
+^60f32541e1c3dc787ab747a2f6a243a57ade5e59
+8dd4ec2120bd450ef77e5b21121286354576e5d1 refs/tags/v0.4
+^1d7cf74e485beeb6abf6b4a232ef3458042c0192
+d51a4a1ba70df8c2d5c4522c071aaa225690a11d refs/tags/v0.5.0

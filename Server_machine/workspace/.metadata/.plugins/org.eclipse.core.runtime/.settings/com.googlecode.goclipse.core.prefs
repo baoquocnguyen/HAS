@@ -1,0 +1,10 @@
+GoToolPreferences.GOFMT_Path=
+GoToolPreferences.GO_GURU_Path=/home/quoc/work/bin/guru
+GoToolPreferences.godef.Path=/home/quoc/work/bin/godef
+append_projloc_gopath=true
+com.googlecode.goclipse.gopath=\:/home/quoc/work/
+com.googlecode.goclipse.goroot=/usr/local/go/
+daemon_path=/home/quoc/work/bin/gocode
+eclipse.preferences.version=1
+editor.matchingBrackets=true
+format_onSave=false

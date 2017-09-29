@@ -1,0 +1,22 @@
+package utils
+
+import (
+	"fmt"
+	//"crypto/rand"
+	//"encoding/binary"
+
+	"github.com/lucas-clemente/quic-go/protocol"
+)
+
+// GenerateConnectionID generates a connection ID using cryptographic random
+func GenerateConnectionID() (protocol.ConnectionID, error) {
+	//b := make([]byte, 8)
+	b := 0x04;
+	/*_, err := rand.Read(b)
+	if err != nil {
+		return 0, err
+	}*/
+	fmt.Printf("%Uint64 hello golang",b);
+	//return protocol.ConnectionID(binary.LittleEndian.Uint64(b)), nil
+	return protocol.ConnectionID(b), nil
+}

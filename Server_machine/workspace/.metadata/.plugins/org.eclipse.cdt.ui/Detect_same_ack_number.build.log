@@ -1,0 +1,26 @@
+14:31:55 **** Incremental Build of configuration Debug for project Detect_same_ack_number ****
+make all 
+Building file: ../src/Detect_same_ack_number.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Detect_same_ack_number.d" -MT"src/Detect_same_ack_number.o" -o "src/Detect_same_ack_number.o" "../src/Detect_same_ack_number.c"
+../src/Detect_same_ack_number.c: In function ‘Processing_input’:
+../src/Detect_same_ack_number.c:79:16: warning: format not a string literal and no format arguments [-Wformat-security]
+                fprintf(f,buff);
+                ^
+../src/Detect_same_ack_number.c:51:15: warning: unused variable ‘check_code’ [-Wunused-variable]
+          char check_code[5] = "2017/";
+               ^
+../src/Detect_same_ack_number.c: In function ‘Detect_same_ack_num’:
+../src/Detect_same_ack_number.c:117:28: warning: unused variable ‘i’ [-Wunused-variable]
+                        int i = 1;
+                            ^
+Finished building: ../src/Detect_same_ack_number.c
+ 
+Building target: Detect_same_ack_number
+Invoking: Cross GCC Linker
+gcc  -o "Detect_same_ack_number"  ./src/Detect_same_ack_number.o   
+Finished building target: Detect_same_ack_number
+ 
+
+14:31:55 Build Finished (took 210ms)
+

@@ -1,0 +1,21 @@
+10:48:51 **** Incremental Build of configuration Debug for project thread ****
+make all 
+Building file: ../src/thread.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/thread.d" -MT"src/thread.o" -o "src/thread.o" "../src/thread.cpp"
+../src/thread.cpp: In function ‘int main()’:
+../src/thread.cpp:23:66: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+       rc = pthread_create(&threads[i], NULL, PrintHello, (void *)i);
+                                                                  ^
+Finished building: ../src/thread.cpp
+ 
+Building target: thread
+Invoking: Cross G++ Linker
+g++  -o "thread"  ./src/thread.o   
+./src/thread.o: In function `main':
+/home/quoc/workspace/thread/Debug/../src/thread.cpp:23: undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+make: *** [thread] Error 1
+
+10:48:51 Build Finished (took 403ms)
+

@@ -1,0 +1,137 @@
+/*
+ ============================================================================
+ Name        : convert_logfile.c
+ Author      : Quoc
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+int my_strcmp(char s1[], char s2[])
+{
+    int i = 0;
+    while ( s1[i] != '\0' )
+    {
+        if( s2[i] == '\0' ) { return 1; }
+        else if( s1[i] < s2[i] ) { return -1; }
+        else if( s1[i] > s2[i] ) { return 1; }
+        i++;
+    }
+    return 0;
+}
+
+void Processing_input(){
+	 // read from below file
+		   FILE * fp;
+
+		   // Write from below file
+	       FILE *f = fopen("/home/quoc/work/src/github.com/lucas-clemente/quic-go/example/log_result.txt", "w+");
+	       if (f == NULL)
+	       {
+	           printf("Error opening file!\n");
+	           exit(1);
+	       }
+
+	       // initial
+
+	       	   fp = fopen("/home/quoc/work/src/github.com/lucas-clemente/quic-go/example/log.txt", "r");
+		       //fp = fopen("/home/quoc/work/src/github.com/lucas-clemente/quic-go/example/log_delay_100ms.txt", "r");
+		       //fp = fopen("/home/quoc/work/src/github.com/lucas-clemente/quic-go/example/result/03_netem/log_loss_5_percent.txt", "r");
+		       if (fp == NULL)
+		           exit(EXIT_FAILURE);
+
+		       char buff[255];
+
+
+		       char check_code[5] = "2017/";
+
+		          //fscanf(fp, "%s", buff);
+		          //printf("1 : %s\n", buff );
+
+		       while(1)
+		          {
+		    	   	  if(fgets(buff, 255, fp) ==NULL)
+		                  break;
+		              else{
+
+				          char tmp[6];
+				          strncpy(tmp, buff,5);
+				          tmp[6] = '\0';
+
+				          //printf("%d\n", my_strcmp(tmp,check_code) );
+				          //printf("debug code 1 \n");
+				          if (buff[2] == ':' && buff[5] == ':' )
+				          {
+				        	  //printf("debug code 2 \n");
+				        	  int i, j;
+				        	  for(j = 0; j< 6; j++)
+				        	  {
+				        	  for(i = 0; (buff[i] != '\0' || i < 15); ++i)
+				        	      {
+				        		  	  buff[i] = buff[i+1];
+				        	      }
+				        	  }
+			        		  fprintf(f,buff);
+				          }
+
+		              }
+
+		          }
+
+		          fclose(f);
+		          fclose(fp);
+}
+
+void Detect_same_ack_num(){
+	// read from below file
+				   FILE * fp;
+
+			       // initial
+				       //fp = fopen("/home/quoc/work/src/github.com/lucas-clemente/quic-go/example/log_result.txt", "r");
+				       fp = fopen("/home/quoc/work/src/github.com/lucas-clemente/result/04_loss ACK/1/log_result.txt", "r");
+				       if (fp == NULL)
+				           exit(EXIT_FAILURE);
+
+				       char buff[255];
+				       int index[100000];
+
+				       while(1)
+				          {
+				    	   	  if(fgets(buff, 255, fp) ==NULL)
+				                  break;
+				              else{
+
+						          if (buff[11] == '<' && buff[12] == '-' && buff[31] == 'L' && buff[32] == 'a')
+						          {
+				            	      /// Get the numbers
+				            	      float timestamp;
+									  int pktnum;
+				            	      char tmp[16],tmp1[30];
+				            	      sscanf(buff, "%f %s %s %x", &timestamp, tmp,tmp1, &pktnum);
+
+				            	      int i = 1;
+
+				            	      if (index[pktnum] != pktnum)
+				            	    	  index[pktnum] = pktnum;
+				            	      else
+				            	    	  printf("PKT_num  %d  timestamp %f \n",pktnum,timestamp);
+						          }
+				              }
+
+				          }
+
+				          fclose(f);
+				          fclose(fp);
+}
+int main(void) {
+	Processing_input();
+	Detect_same_ack_num();
+	return 0;
+}
+
+
